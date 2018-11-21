@@ -1,6 +1,6 @@
 build:
   image:
-    name: gcr.io/kaniko-project/executor:debug
+    name: gcr.io/kaniko-project/executor:debug-v0.6.0
     entrypoint: [""]
   variables:
     DOCKER_IMAGE: cookielab/kubectl
